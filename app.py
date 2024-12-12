@@ -193,5 +193,8 @@ def update_dashboard(contents, filename):
 # ============================
 # Run the App
 # ============================
+server = app.server  # Expose the underlying Flask server
+
 if __name__ == "__main__":
     app.run_server(debug=True)
+
