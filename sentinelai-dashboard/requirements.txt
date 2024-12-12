@@ -6,3 +6,4 @@ scikit-learn
 gunicorn
 joblib
 scapy
+dash_bootstrap_components 
